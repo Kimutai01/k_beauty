@@ -1,0 +1,134 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "CeraVe",
+      "description": "This is an example.",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
+      "category": "Skincare",
+      "price": 10.99,
+      "rating": 4.5,
+      "popular": true
+    },
+    {
+      "id": 2,
+      "title": "Biossance",
+      "description": "Face cream",
+      "image": "https://www.biossance.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/a/squalane_oil_1_1.jpg",
+      "category": "Skincare",
+      "price": 20.99,
+      "rating": 4.5,
+      "popular": true
+    },
+    {
+      "id": 3,
+      "title": "Cetaphil",
+      "description": "a gentle skincare brand that has been recommended and trusted by doctors",
+      "image": "https://www.cetaphil.com/on/demandware.static/-/Sites-cetaphil-master-catalog/default/dw1b1b1b5a/images/hi-res/2019/01/01/20190101_Cetaphil_Cleanser_1.jpg",
+      "category": "Skincare",
+      "price": 10.99,
+      "rating": 4.5,
+      "popular": false
+    },
+    {
+      "id": 4,
+      "title": "CeraVe",
+      "description": "This is an example.",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
+      "category": "Skincare",
+      "price": 10.99,
+      "rating": 4.5,
+      "popular": true
+    },
+    {
+      "id": 5,
+      "title": "Lake & Skye 11 11 Eau de Parfum",
+      "description": "A fragrance that is both feminine and masculine, with a blend of citrus, floral, and woody notes.",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
+      "category": "Fragrance",
+      "price": 70.99,
+      "rating": 4.5,
+      "popular": true
+    },
+    {
+      "id": 5,
+      "title": "Burberry London Eau de Parfum Spray",
+      "description": "A fragrance that is both feminine and masculine, with a blend of citrus, floral, and woody notes.",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
+      "category": "Fragrance",
+      "price": 10.99,
+      "rating": 4.5,
+      "popular": true
+    },
+    {
+      "id": 6,
+      "title": "Versace Bright Crystal Eau de Toilette",
+      "description": "Women perfume",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
+      "category": "Fragrance",
+      "price": 10.99,
+      "rating": 4.5,
+      "popular": true
+    },
+    {
+      "id": 7,
+      "title": "Guess by Marciano Eau de Parfum",
+      "description": "This is an example.",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
+      "category": "Fragrance",
+      "price": 10.99,
+      "rating": 4.5,
+      "popular": false
+    },
+    {
+      "id": 8,
+      "title": "Fresh Sugar Lychee Eau de Parfum",
+      "description": "Fruit perfume",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
+      "category": "Fragrance",
+      "price": 25.99,
+      "rating": 4.5,
+      "popular": false
+    },
+    {
+      "id": 9,
+      "title": "Jo Malone English Pear & Freesia Cologne",
+      "description": "This is an example.",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
+      "category": "Fragrance",
+      "price": 10.99,
+      "rating": 4.5,
+      "popular": true
+    },
+    {
+      "id": 10,
+      "title": "Neutrogena Rapid Clear 2-in-1 Fight & Fade Toner 236ml",
+      "description": "A skin clearing toner formulated to clear breakouts and fade post-acne marks to reveal a clear, more even-toned skin",
+      "image": "https://assets.beautyhub.co.ke/wp-content/uploads/2019/11/23101811/neutrogena_rapid_clear_fade_fight_toner-600x600.jpg",
+      "category": "Skincare",
+      "price": 10.99,
+      "rating": 4.5,
+      "popular": true
+    },
+    {
+      "id": 11,
+      "title": "Laneige Lip Sleeping Mask EX Berry 20ml",
+      "description": "An upgraded formulation of best-selling Laneige Lip Sleeping Mask that helps dissolve dead skin cells, moisturize, smooth and plump your lips overnight",
+      "image": "https://assets.beautyhub.co.ke/wp-content/uploads/2019/04/14120453/laneige_lip_sleeping_mask_ex_berry_20g-600x600.jpg",
+      "category": "Skincare",
+      "price": 10.99,
+      "rating": 4.5,
+      "popular": true
+    },
+    {
+      "id": 12,
+      "title": "CeraVe",
+      "description": "This is an example.",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
+      "category": "Skincare",
+      "price": 10.99,
+      "rating": 4.5,
+      "popular": true
+    }
+  ]
+}
