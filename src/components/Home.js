@@ -14,7 +14,7 @@ const Home = () => {
       .then((data) => setData(data));
   }, []);
   return (
-    <div>
+    <div className="home">
       {/* {data.map((product) => (
         <div key={product.id}>
           <img src={product.image} alt="" />
