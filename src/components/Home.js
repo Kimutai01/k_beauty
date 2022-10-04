@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import Fragrance from "./Fragrance";
 import Popular from "./Popular";
 import SkinCare from "./SkinCare";
+import ParticlesBackground from "./ParticlesBackground";
+import ParticlesBg from "particles-bg";
+import "../App.css";
 
 const Home = () => {
   const [data, setData] = useState([]);
@@ -20,6 +23,7 @@ const Home = () => {
           <p>{product.price}</p>
         </div>
       ))} */}
+      <ParticlesBg num={100} type="cobweb" bg color="#0ab4e7" />
       <Popular />
       <SkinCare />
       <Fragrance />
