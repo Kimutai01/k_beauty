@@ -7,7 +7,7 @@
       "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
       "category": "Skincare",
       "price": 10.99,
-      "rating": 4.5,
+
       "popular": true
     },
     {
@@ -17,7 +17,7 @@
       "image": "https://www.biossance.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/a/squalane_oil_1_1.jpg",
       "category": "Skincare",
       "price": 20.99,
-      "rating": 4.5,
+
       "popular": true
     },
     {
@@ -27,7 +27,7 @@
       "image": "https://www.cetaphil.com/on/demandware.static/-/Sites-cetaphil-master-catalog/default/dw1b1b1b5a/images/hi-res/2019/01/01/20190101_Cetaphil_Cleanser_1.jpg",
       "category": "Skincare",
       "price": 10.99,
-      "rating": 4.5,
+
       "popular": false
     },
     {
@@ -37,7 +37,7 @@
       "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
       "category": "Skincare",
       "price": 10.99,
-      "rating": 4.5,
+
       "popular": true
     },
     {
@@ -47,7 +47,7 @@
       "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
       "category": "Fragrance",
       "price": 70.99,
-      "rating": 4.5,
+
       "popular": true
     },
     {
@@ -57,7 +57,7 @@
       "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
       "category": "Fragrance",
       "price": 10.99,
-      "rating": 4.5,
+
       "popular": true
     },
     {
@@ -67,7 +67,7 @@
       "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
       "category": "Fragrance",
       "price": 10.99,
-      "rating": 4.5,
+
       "popular": true
     },
     {
@@ -77,7 +77,7 @@
       "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
       "category": "Fragrance",
       "price": 10.99,
-      "rating": 4.5,
+
       "popular": false
     },
     {
@@ -87,7 +87,7 @@
       "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
       "category": "Fragrance",
       "price": 25.99,
-      "rating": 4.5,
+
       "popular": false
     },
     {
@@ -97,7 +97,7 @@
       "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1612885645-51nfuxdgizl-sl1000-1612885634.jpg?crop=1xw:1xh;center,top&resize=768:*",
       "category": "Fragrance",
       "price": 10.99,
-      "rating": 4.5,
+
       "popular": false
     },
     {
@@ -107,7 +107,7 @@
       "image": "https://assets.beautyhub.co.ke/wp-content/uploads/2019/11/23101811/neutrogena_rapid_clear_fade_fight_toner-600x600.jpg",
       "category": "Skincare",
       "price": 10.99,
-      "rating": 4.5,
+
       "popular": true
     },
     {
@@ -117,7 +117,7 @@
       "image": "https://assets.beautyhub.co.ke/wp-content/uploads/2019/04/14120453/laneige_lip_sleeping_mask_ex_berry_20g-600x600.jpg",
       "category": "Skincare",
       "price": 10.99,
-      "rating": 4.5,
+
       "popular": true
     },
     {
@@ -127,7 +127,7 @@
       "image": "https://assets.beautyhub.co.ke/wp-content/uploads/2019/02/03174813/benton_aloe_propolis_soothing_gel-600x600.jpg",
       "category": "Skincare",
       "price": 18.99,
-      "rating": 4.5,
+
       "popular": true
     },
     {
@@ -137,7 +137,7 @@
       "image": "https://assets.beautyhub.co.ke/wp-content/uploads/2019/02/03174813/benton_aloe_propolis_soothing_gel-600x600.jpg",
       "category": "Skincare",
       "price": 26.99,
-      "rating": 4.5,
+
       "popular": false
     },
     {
@@ -147,7 +147,7 @@
       "image": "https://assets.beautyhub.co.ke/wp-content/uploads/2019/03/30120851/mizon_black_snail_all_in_one_cream-600x600.jpg",
       "category": "Skincare",
       "price": 26.99,
-      "rating": 4.5,
+
       "popular": true
     }
   ]
