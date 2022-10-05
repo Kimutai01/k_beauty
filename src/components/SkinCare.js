@@ -8,7 +8,13 @@ const SkinCare = () => {
   const [skinCare, setSkinCare] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/products")
+    fetch("http://localhost:3001/products", {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+    })
       .then((r) => r.json())
 
       .then((data) => {

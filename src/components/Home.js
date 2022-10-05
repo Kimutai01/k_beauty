@@ -7,12 +7,6 @@ import ParticlesBg from "particles-bg";
 import "../App.css";
 
 const Home = () => {
-  const [data, setData] = useState([]);
-  useEffect(() => {
-    fetch("http://localhost:3000/api/v1/products")
-      .then((res) => res.json())
-      .then((data) => setData(data));
-  }, []);
   return (
     <div className="home">
       {/* {data.map((product) => (
