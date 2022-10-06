@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import ProductList from "./ProductList";
 import { SplideSlide, Splide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import { Link } from "react-router-dom";
 
 const Fragrance = () => {
   const [fragrance, setFragrance] = useState([]);
@@ -45,9 +44,7 @@ const Fragrance = () => {
             (product) =>
               product.category === "Fragrance" && (
                 <SplideSlide key={product.id}>
-                  <Link to={`/detail/${product.id}`}>
-                    <ProductList key={product.id} product={product} />
-                  </Link>
+                  <ProductList key={product.id} product={product} />
                 </SplideSlide>
               )
           )}

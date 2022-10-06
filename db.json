@@ -170,6 +170,15 @@
       "price": "32.00",
       "popular": false,
       "id": 19
+    },
+    {
+      "title": "Ladies perfume",
+      "image": "",
+      "description": "eau de perfume",
+      "category": "Fragrance",
+      "price": "20",
+      "popular": false,
+      "id": 20
     }
   ]
 }

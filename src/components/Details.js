@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
+import "./Details.css";
 
 const Details = () => {
+  const navigate = useNavigate();
   const [single, setSingle] = useState({});
 
   const { id } = useParams();
@@ -15,11 +17,21 @@ const Details = () => {
       });
   }, []);
   return (
-    <div>
+    <div className="product-card">
       {/* {single.map((product) => (
         <li>product.title</li>
       ))} */}
-      {single.title}
+      <h1>{single.title}</h1>
+      <p>{single.price}</p>
+      <img src={single.image} alt={single.title} />
+
+      <button>Add to Cart</button>
+
+      <p>{single.description}</p>
+
+      <button onClick={() => navigate(-1)}>Go Back</button>
+
+      <button>Go to Cart</button>
     </div>
   );
 };
