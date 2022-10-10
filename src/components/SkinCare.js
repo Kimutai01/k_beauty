@@ -23,7 +23,7 @@ const SkinCare = () => {
   }, []);
   return (
     <div>
-      <h1>Skin Care</h1>
+      <h1 className="text-center">Skin Care</h1>
       <div className="pop">
         <Splide
           options={{

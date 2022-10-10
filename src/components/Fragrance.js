@@ -22,7 +22,7 @@ const Fragrance = () => {
   }, []);
   return (
     <div>
-      <h1>Fragrance</h1>
+      <h1 className="text-center">Fragrance</h1>
 
       <div className="pop">
         <Splide
