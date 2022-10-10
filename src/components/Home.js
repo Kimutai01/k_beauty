@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Fragrance from "./Fragrance";
 import Popular from "./Popular";
 import SkinCare from "./SkinCare";
-import ParticlesBackground from "./ParticlesBackground";
 import ParticlesBg from "particles-bg";
 import "../App.css";
 
