@@ -34,6 +34,30 @@
 }
 .links {
   display: flex;
-
   justify-content: space-between;
+  align-self: center;
+}
+.back {
+  margin-right: 20px;
+  margin-top: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.back:hover {
+  color: #3ebe17;
+}
+.detail__cart,
+.detail__basket {
+  margin-right: 20px;
+  font-size: 2rem;
+  color: #000;
+  cursor: pointer;
+}
+.detail__cart:hover,
+.detail__basket:hover {
+  color: #3ebe17;
 }
