@@ -20,7 +20,7 @@ const Cart = () => {
     <>
       <h1 className="text-center">Cart</h1>
       {items.map((item) => (
-        <div className="container mt-5 mb-5">
+        <div className="container mt-5 mb-5" key={item.id}>
           <div className="d-flex justify-content-center row">
             <div className="col-md-10">
               <div className="row p-2 bg-white border rounded">
@@ -33,9 +33,7 @@ const Cart = () => {
                 </div>
                 <div className="col-md-6 mt-1">
                   <h5>{item.title}</h5>
-                  <p className="text-justify text-truncate para mb-0">
-                    {item.category}
-                  </p>
+                  <p className="">{item.description}</p>
                 </div>
                 <div className="align-items-center align-content-center col-md-3 border-left mt-1">
                   <div className="d-flex flex-row align-items-center">

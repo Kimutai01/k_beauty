@@ -14,7 +14,7 @@ const Details = () => {
   const { addToCart } = useContext(CartContext);
 
   useEffect(() => {
-    fetch(`http://localhost:3001/products/${id}`)
+    fetch(`https://k-beauty-api.herokuapp.com/products/${id}`)
       .then((r) => r.json())
 
       .then((data) => {

@@ -15,7 +15,7 @@ const Vendor = () => {
 
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3001/products")
+    fetch("https://k-beauty-api.herokuapp.com/products")
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
@@ -32,7 +32,7 @@ const Vendor = () => {
     });
   };
   const addProduct = () => {
-    Axios.post("http://localhost:3001/products", {
+    Axios.post("https://k-beauty-api.herokuapp.com/products", {
       title: title,
       image: image,
       description: description,

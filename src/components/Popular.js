@@ -8,7 +8,7 @@ const Popular = () => {
   const [popular, setPopular] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3001/products", {
+    fetch("https://k-beauty-api.herokuapp.com/products", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -33,9 +33,9 @@ const Popular = () => {
             pauseOnFocus: true,
             pagination: false,
             autoplay: true,
-            speed: 5500,
+            speed: 6000,
             type: "loop",
-            interval: 4000,
+            interval: 5000,
             rewindByDrag: true,
             drag: "free",
           }}
