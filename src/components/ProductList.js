@@ -3,6 +3,7 @@ import "./ProductList.css";
 import { Link } from "react-router-dom";
 import CartContext from "../cartContext";
 import { useContext } from "react";
+import { FaShoppingCart } from "react-icons/fa";
 
 const ProductList = ({ product }) => {
   const { addToCart } = useContext(CartContext);
@@ -13,15 +14,18 @@ const ProductList = ({ product }) => {
         <h3>{product.title}</h3>
       </Link>
       <p>{product.description.slice(0, 100)}...</p>
-      <p>{product.price}</p>
-      <button
-        onClick={() =>
-          addToCart(product.title, product.price, product.image, product.id)
-        }
-      >
-        {" "}
-        Add to cart
-      </button>
+      <div className="below">
+        <div className="price">
+          <p>price</p>
+          <p>${product.price}</p>
+        </div>
+        <FaShoppingCart
+          className="cart"
+          onClick={() =>
+            addToCart(product.title, product.price, product.image, product.id)
+          }
+        />
+      </div>
     </div>
   );
 };

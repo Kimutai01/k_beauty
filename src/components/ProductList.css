@@ -10,7 +10,28 @@
   background-color: white;
   align-items: center;
 }
+.price {
+  display: flex;
+  font-size: 1.5rem;
+  color: rgb(24, 21, 44);
+  margin: 0.5rem 0;
+  margin-right: 20px;
+}
 .card > img {
   height: 200px;
-  width: 150px;
+  width: 200px;
+}
+.below {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart {
+  font-size: 2rem;
+  color: rgb(20, 18, 43);
+}
+.cart:hover {
+  color: rgb(43, 37, 83);
+  cursor: pointer;
 }

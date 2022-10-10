@@ -21,17 +21,24 @@ const Details = () => {
       {/* {single.map((product) => (
         <li>product.title</li>
       ))} */}
-      <h1>{single.title}</h1>
-      <p>{single.price}</p>
-      <img src={single.image} alt={single.title} />
+      <div className="products">
+        <div className="img-div">
+          <img className="image" src={single.image} alt={single.title} />
+        </div>
+        <div>
+          <h1>{single.title}</h1>
+          <p>{single.description}</p>
+          <p>{single.price}</p>
 
-      <button>Add to Cart</button>
+          <div className="links">
+            <button>Add to Cart</button>
 
-      <p>{single.description}</p>
+            <button onClick={() => navigate(-1)}>Go Back</button>
 
-      <button onClick={() => navigate(-1)}>Go Back</button>
-
-      <button>Go to Cart</button>
+            <button>Go to Cart</button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

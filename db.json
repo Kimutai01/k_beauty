@@ -13,7 +13,7 @@
       "id": 2,
       "title": "Biossance",
       "description": "Face cream",
-      "image": "https://www.biossance.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/a/squalane_oil_1_1.jpg",
+      "image": "https://plus.unsplash.com/premium_photo-1661779239221-6a8dddfe8a31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyZnVtZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
       "category": "Skincare",
       "price": 20.99,
       "popular": true
@@ -22,7 +22,7 @@
       "id": 3,
       "title": "Cetaphil",
       "description": "a gentle skincare brand that has been recommended and trusted by doctors",
-      "image": "https://www.cetaphil.com/on/demandware.static/-/Sites-cetaphil-master-catalog/default/dw1b1b1b5a/images/hi-res/2019/01/01/20190101_Cetaphil_Cleanser_1.jpg",
+      "image": "https://images.unsplash.com/photo-1631730486572-226d1f595b68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHNraW4lMjBjYXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "category": "Skincare",
       "price": 10.99,
       "popular": false
