@@ -1,6 +1,7 @@
 import React from "react";
 import CartContext from "../cartContext";
 import { useContext } from "react";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   const { items } = useContext(CartContext);
@@ -33,7 +34,7 @@ const Cart = () => {
                 <div className="col-md-6 mt-1">
                   <h5>{item.title}</h5>
                   <p className="text-justify text-truncate para mb-0">
-                    {item.description}
+                    {item.category}
                   </p>
                 </div>
                 <div className="align-items-center align-content-center col-md-3 border-left mt-1">
@@ -42,9 +43,11 @@ const Cart = () => {
                   </div>
                   <h6 className="text-success">Free shipping</h6>
                   <div className="d-flex flex-column mt-4">
-                    <button className="btn btn-primary btn-sm" type="button">
-                      Details
-                    </button>
+                    <Link to={`/detail/${item.id}`}>
+                      <button className="btn btn-primary btn-sm" type="button">
+                        Details
+                      </button>
+                    </Link>
                     <button
                       className="btn btn-outline-primary btn-sm mt-2"
                       type="button"

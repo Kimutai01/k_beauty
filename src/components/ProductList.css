@@ -25,13 +25,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  align-self: center;
 }
 
 .cart {
   font-size: 2rem;
   color: rgb(20, 18, 43);
+  margin-bottom: 15px;
 }
 .cart:hover {
-  color: rgb(43, 37, 83);
+  color: rgb(29, 83, 16);
   cursor: pointer;
 }
