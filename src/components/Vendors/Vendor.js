@@ -2,8 +2,11 @@ import React, { useState, useEffect } from "react";
 import Axios from "axios";
 import "./Vendor.css";
 import { BiCamera } from "react-icons/bi";
+import { useNavigate } from "react-router-dom";
+import logo from "../../assets/logo.jpeg";
 
 const Vendor = () => {
+  const navigate = useNavigate();
   const [title, setTitle] = useState("");
   const [image, setImage] = useState("");
   const [description, setDescription] = useState("");
@@ -45,37 +48,123 @@ const Vendor = () => {
     setCategory("");
     setPrice(0);
   };
-  return (
-    <div className="form">
-      <h1>Add a product</h1>
 
-      <input
-        type="title"
-        placeholder="Enter title"
-        onChange={(e) => setTitle(e.target.value)}
-      />
-      <input
-        type="file"
-        onChange={(e) => {
-          uploadImage(e.target.files[0]);
-        }}
-      />
-      <input
-        type="description"
-        placeholder="Enter description"
-        onChange={(e) => setDescription(e.target.value)}
-      />
-      <input
-        type="text"
-        placeholder="Enter category"
-        onChange={(e) => setCategory(e.target.value)}
-      />
-      <input
-        type="number"
-        placeholder="Enter price"
-        onChange={(e) => setPrice(e.target.value)}
-      />
-      <input type="submit" onClick={addProduct} />
+  return (
+    // <div className="form">
+    //   <h1>Add a product</h1>
+
+    // <input
+    //   type="title"
+    //   placeholder="Enter title"
+    //   onChange={(e) => setTitle(e.target.value)}
+    // />
+    // <input
+    //   type="file"
+    //   onChange={(e) => {
+    //     uploadImage(e.target.files[0]);
+    //   }}
+    // />
+    // <input
+    //   type="description"
+    //   placeholder="Enter description"
+    //   onChange={(e) => setDescription(e.target.value)}
+    // />
+    // <input
+    //   type="text"
+    //   placeholder="Enter category"
+    //   onChange={(e) => setCategory(e.target.value)}
+    // />
+    // <input
+    //   type="number"
+    //   placeholder="Enter price"
+    //   onChange={(e) => setPrice(e.target.value)}
+    // />
+    // <input type="submit" onClick={addProduct} />
+    // </div>
+    <div className="form">
+      <div className="signup-container">
+        <div className="left-container">
+          <img src={logo} alt="logo" />
+        </div>
+        <div className="right-container">
+          <header>
+            <h1>Add your product</h1>
+            <div className="set">
+              <div className="pets-name">
+                <label htmlFor="events-name">Enter title of the product</label>
+                <input
+                  id="events-name"
+                  type="text"
+                  value={title}
+                  placeholder="Enter title"
+                  onChange={(e) => setTitle(e.target.value)}
+                />
+              </div>
+              <div className="pets-photo">
+                <button id="pets-upload">
+                  <BiCamera className="bicam" />
+                  <input
+                    type="file"
+                    id="file-selector"
+                    onChange={(e) => {
+                      uploadImage(e.target.files[0]);
+                    }}
+                  />
+                </button>
+                <label htmlFor="pets-upload">Upload a photo</label>
+              </div>
+            </div>
+            <div className="set">
+              <div className="pets-breed">
+                <label htmlFor="events-venue">category</label>
+
+                <input
+                  id="events-venue"
+                  type="text"
+                  value={category}
+                  placeholder="Enter category"
+                  onChange={(e) => setCategory(e.target.value)}
+                />
+              </div>
+              <div className="pets-birthday">
+                <label htmlFor="pets-birthday">Product Price</label>
+                <input
+                  id="pets-birthday"
+                  type="number"
+                  value={price}
+                  placeholder="Enter price"
+                  onChange={(e) => setPrice(e.target.value)}
+                />
+              </div>
+            </div>
+
+            <div className="pets-weight">
+              <label htmlFor="pet-weight-0-25">Description</label>
+              <div className="radio-container">
+                <input
+                  type="text"
+                  value={description}
+                  placeholder="Enter description"
+                  onChange={(e) => setDescription(e.target.value)}
+                />
+              </div>
+            </div>
+          </header>
+          <footer>
+            <div className="set">
+              <button
+                id="back"
+                onClick={() => {
+                  navigate("/");
+                }}
+              >
+                Back
+              </button>
+              <input id="next" type="submit" onClick={addProduct} />
+            </div>
+          </footer>
+        </div>
+      </div>
     </div>
   );
 };

@@ -5,16 +5,60 @@ import { useContext } from "react";
 const Cart = () => {
   const { items } = useContext(CartContext);
   return (
-    <div>
-      <h1>Cart</h1>
+    // <div>
+    //   <h1>Cart</h1>
+    //   {/* {items.map((item) => (
+    //     <div key={item.id}>
+    //       <h3>{item.title}</h3>
+    //       <p>{item.price}</p>
+    //       <img src={item.image} alt={item.title} />
+    //     </div>
+    //   ))} */}
+
+    // </div>
+    <>
+      <h1 className="text-center">Cart</h1>
       {items.map((item) => (
-        <div key={item.id}>
-          <h3>{item.title}</h3>
-          <p>{item.price}</p>
-          <img src={item.image} alt={item.title} />
+        <div className="container mt-5 mb-5">
+          <div className="d-flex justify-content-center row">
+            <div className="col-md-10">
+              <div className="row p-2 bg-white border rounded">
+                <div className="col-md-3 mt-1">
+                  <img
+                    className="img-fluid img-responsive rounded product-image"
+                    src={item.image}
+                    alt={item.title}
+                  />
+                </div>
+                <div className="col-md-6 mt-1">
+                  <h5>{item.title}</h5>
+                  <p className="text-justify text-truncate para mb-0">
+                    {item.description}
+                  </p>
+                </div>
+                <div className="align-items-center align-content-center col-md-3 border-left mt-1">
+                  <div className="d-flex flex-row align-items-center">
+                    <span className="strike-text">${item.price}</span>
+                  </div>
+                  <h6 className="text-success">Free shipping</h6>
+                  <div className="d-flex flex-column mt-4">
+                    <button className="btn btn-primary btn-sm" type="button">
+                      Details
+                    </button>
+                    <button
+                      className="btn btn-outline-primary btn-sm mt-2"
+                      type="button"
+                    >
+                      Add to wishlist
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       ))}
-    </div>
+    </>
   );
 };
 

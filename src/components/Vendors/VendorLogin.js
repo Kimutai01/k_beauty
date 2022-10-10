@@ -7,7 +7,6 @@ const VendorLogin = () => {
   const [login, setLogin] = useState(false);
   return (
     <div>
-      <Navbar />
       {login ? <Vendor /> : <Login login={login} setLogin={setLogin} />}
       <button onClick={() => setLogin(!login)}>Toggle</button>
     </div>
