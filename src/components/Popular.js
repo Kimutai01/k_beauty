@@ -27,8 +27,9 @@ const Popular = () => {
       <div className="pop">
         <Splide
           options={{
-            perPage: 4,
+            perPage: 3,
             arrows: false,
+            gap: "1rem",
             pauseOnHover: true,
             pauseOnFocus: true,
             pagination: false,
