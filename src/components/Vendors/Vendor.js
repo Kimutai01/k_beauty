@@ -50,37 +50,6 @@ const Vendor = () => {
   };
 
   return (
-    // <div className="form">
-    //   <h1>Add a product</h1>
-
-    // <input
-    //   type="title"
-    //   placeholder="Enter title"
-    //   onChange={(e) => setTitle(e.target.value)}
-    // />
-    // <input
-    //   type="file"
-    //   onChange={(e) => {
-    //     uploadImage(e.target.files[0]);
-    //   }}
-    // />
-    // <input
-    //   type="description"
-    //   placeholder="Enter description"
-    //   onChange={(e) => setDescription(e.target.value)}
-    // />
-    // <input
-    //   type="text"
-    //   placeholder="Enter category"
-    //   onChange={(e) => setCategory(e.target.value)}
-    // />
-    // <input
-    //   type="number"
-    //   placeholder="Enter price"
-    //   onChange={(e) => setPrice(e.target.value)}
-    // />
-    // <input type="submit" onClick={addProduct} />
-    // </div>
     <div className="form">
       <div className="signup-container">
         <div className="left-container">

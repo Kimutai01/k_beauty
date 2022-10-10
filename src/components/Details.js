@@ -23,9 +23,6 @@ const Details = () => {
   }, []);
   return (
     <div className="product-card">
-      {/* {single.map((product) => (
-        <li>product.title</li>
-      ))} */}
       <div className="products">
         <div className="img-div">
           <img className="image" src={single.image} alt={single.title} />
@@ -40,7 +37,6 @@ const Details = () => {
               className="back"
               onClick={() => navigate(-1)}
             />
-            {/* <button onClick={() => navigate(-1)}>Go Back</button> */}
             <FaShoppingCart
               className="detail__cart"
               onClick={() =>
@@ -51,7 +47,6 @@ const Details = () => {
               className="detail__basket"
               onClick={() => navigate("/cart")}
             />
-            {/* <button>Go to Cart</button> */}
           </div>
         </div>
       </div>

@@ -9,14 +9,6 @@ import "../App.css";
 const Home = () => {
   return (
     <div className="home">
-      {/* {data.map((product) => (
-        <div key={product.id}>
-          <img src={product.image} alt="" />
-          <h1>{product.name}</h1>
-          <p>{product.description}</p>
-          <p>{product.price}</p>
-        </div>
-      ))} */}
       <ParticlesBg num={100} type="cobweb" bg color="#0ab4e7" />
       <Popular />
       <SkinCare />
