@@ -11,9 +11,9 @@ const ProductList = ({ product }) => {
     <div className="card">
       <img src={product.image} alt={product.name} />
       <Link to={`/detail/${product.id}`}>
-        <h3>{product.title}</h3>
+        <h4>{product.title}</h4>
       </Link>
-      <p>{product.description.slice(0, 100)}...</p>
+      <p>{product.description.slice(0, 30)}...</p>
       <div className="below">
         <div className="price">
           <p>price</p>
