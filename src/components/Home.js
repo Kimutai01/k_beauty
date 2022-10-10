@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import Fragrance from "./Fragrance";
 import Popular from "./Popular";
 import SkinCare from "./SkinCare";
