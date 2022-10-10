@@ -21,36 +21,33 @@ const Fragrance = () => {
       });
   }, []);
   return (
-    <div>
+    <div className="pop">
       <h1 className="text-center">Fragrance</h1>
-
-      <div className="pop">
-        <Splide
-          options={{
-            perPage: 3,
-            arrows: false,
-            gap: "5rem",
-            pauseOnHover: true,
-            pauseOnFocus: true,
-            pagination: false,
-            autoplay: true,
-            speed: 6000,
-            type: "loop",
-            interval: 5000,
-            rewindByDrag: true,
-            drag: "free",
-          }}
-        >
-          {fragrance.map(
-            (product) =>
-              product.category === "Fragrance" && (
-                <SplideSlide key={product.id}>
-                  <ProductList key={product.id} product={product} />
-                </SplideSlide>
-              )
-          )}
-        </Splide>
-      </div>
+      <Splide
+        options={{
+          perPage: 3,
+          arrows: false,
+          gap: "5rem",
+          pauseOnHover: true,
+          pauseOnFocus: true,
+          pagination: false,
+          autoplay: true,
+          speed: 6000,
+          type: "loop",
+          interval: 5000,
+          rewindByDrag: true,
+          drag: "free",
+        }}
+      >
+        {fragrance.map(
+          (product) =>
+            product.category === "Fragrance" && (
+              <SplideSlide key={product.id}>
+                <ProductList key={product.id} product={product} />
+              </SplideSlide>
+            )
+        )}
+      </Splide>
     </div>
   );
 };
