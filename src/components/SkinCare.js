@@ -29,7 +29,7 @@ const SkinCare = () => {
           options={{
             perPage: 3,
             arrows: false,
-            gap: "1rem",
+            gap: "5rem",
             pauseOnHover: true,
             pauseOnFocus: true,
             pagination: false,
