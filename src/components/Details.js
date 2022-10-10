@@ -12,7 +12,6 @@ const Details = () => {
 
   const { id } = useParams();
   const { addToCart } = useContext(CartContext);
-
   useEffect(() => {
     fetch(`https://k-beauty-api.herokuapp.com/products/${id}`)
       .then((r) => r.json())
@@ -20,6 +19,7 @@ const Details = () => {
       .then((data) => {
         setSingle(data);
       });
+    // eslint-disable-next-line
   }, []);
   return (
     <div className="product-card">
