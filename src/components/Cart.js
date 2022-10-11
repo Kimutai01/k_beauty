@@ -4,9 +4,8 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 
 const Cart = () => {
-  const { items } = useContext(CartContext);
+  const { items, removeItem } = useContext(CartContext);
   return (
-   
     <>
       <h1 className="text-center">Cart</h1>
       {items.map((item) => (
@@ -32,15 +31,24 @@ const Cart = () => {
                   <h6 className="text-success">Free shipping</h6>
                   <div className="d-flex flex-column mt-4">
                     <Link to={`/detail/${item.id}`}>
-                      <button className="btn btn-primary btn-sm" type="button">
+                      <button
+                        className="btn btn-primary btn-sm"
+                        type="button"
+                        onClick={() => {
+                          removeItem(item.id);
+                        }}
+                      >
                         Details
                       </button>
                     </Link>
                     <button
-                      className="btn btn-outline-primary btn-sm mt-2"
+                      className="btn btn-danger btn-sm mt-2"
                       type="button"
+                      onClick={() => {
+                        removeItem(item.id);
+                      }}
                     >
-                      Add to wishlist
+                      remove
                     </button>
                   </div>
                 </div>
