@@ -11,7 +11,7 @@
 ![](https://img.shields.io/badge/Github-black)&nbsp;&nbsp;&nbsp;![](https://img.shields.io/badge/React-green)&nbsp;&nbsp;&nbsp;![](https://img.shields.io/badge/CSS-Yellow)
 
 [Live Demo Link](https://monumental-parfait-c238f8.netlify.app/)
-![screenshot]()
+![screenshot](./scr.png)
 
 ## Getting Started
 
