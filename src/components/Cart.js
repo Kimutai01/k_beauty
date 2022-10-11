@@ -6,17 +6,7 @@ import { Link } from "react-router-dom";
 const Cart = () => {
   const { items } = useContext(CartContext);
   return (
-    // <div>
-    //   <h1>Cart</h1>
-    //   {/* {items.map((item) => (
-    //     <div key={item.id}>
-    //       <h3>{item.title}</h3>
-    //       <p>{item.price}</p>
-    //       <img src={item.image} alt={item.title} />
-    //     </div>
-    //   ))} */}
-
-    // </div>
+   
     <>
       <h1 className="text-center">Cart</h1>
       {items.map((item) => (
