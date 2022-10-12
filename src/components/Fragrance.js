@@ -32,7 +32,7 @@ const Fragrance = () => {
           pauseOnFocus: true,
           pagination: false,
           autoplay: true,
-          speed: 6000,
+          speed: 15000,
           type: "loop",
           interval: 5000,
           rewindByDrag: true,
